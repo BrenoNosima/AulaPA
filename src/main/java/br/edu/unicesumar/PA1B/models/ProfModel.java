@@ -1,4 +1,4 @@
-package br.edu.unicesumar.javaaula2.models;
+package br.edu.unicesumar.PA1B.models;
 
 import jakarta.persistence.*;
 

@@ -1,8 +1,7 @@
-package br.edu.unicesumar.javaaula2.services;
+package br.edu.unicesumar.PA1B.services;
 
-import br.edu.unicesumar.javaaula2.models.AlunoModel;
-import br.edu.unicesumar.javaaula2.models.ProfModel;
-import br.edu.unicesumar.javaaula2.repositories.AlunoRepository;
+import br.edu.unicesumar.PA1B.models.AlunoModel;
+import br.edu.unicesumar.PA1B.repositories.AlunoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,5 +14,9 @@ public class AlunoService {
 
     public List<AlunoModel> findAll() {
         return alunoRepository.findAll();
+    }
+
+    public AlunoModel criar(AlunoModel alunoModel) {
+        return alunoRepository.save(alunoModel);
     }
 }

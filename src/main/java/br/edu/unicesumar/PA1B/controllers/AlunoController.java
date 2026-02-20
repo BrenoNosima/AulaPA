@@ -1,8 +1,7 @@
-package br.edu.unicesumar.javaaula2.controllers;
+package br.edu.unicesumar.PA1B.controllers;
 
-import br.edu.unicesumar.javaaula2.models.AlunoModel;
-import br.edu.unicesumar.javaaula2.repositories.AlunoRepository;
-import br.edu.unicesumar.javaaula2.services.AlunoService;
+import br.edu.unicesumar.PA1B.models.AlunoModel;
+import br.edu.unicesumar.PA1B.services.AlunoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
